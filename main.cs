@@ -3,14 +3,17 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     
-		const string MyName = "Jane";
+		const string MyName = "Владимир";
+		byte MyAge = 23;
+		bool HaveIApet = нет;
+		double MyShoeSize = 40.0;
 
 		Console.WriteLine(MyName);
 
-		Console.WriteLine("\t Привет Мир");
-		Console.WriteLine("\t Мне 27 лет");
-		Console.WriteLine("\t My name is \n {0}", MyName);
-		Console.WriteLine("\x23");
+		Console.WriteLine("Меня зовут" + MyName);
+		Console.WriteLine("Мне {0} года", MyAge);
+		Console.WriteLine("У меня {0} домашнего питомца", HaveIApet);
+		Console.WriteLine("У меня {0} размер", MyShoeSize);
 		Console.ReadKey();
 
   }
