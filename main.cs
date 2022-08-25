@@ -8,8 +8,6 @@ class MainClass {
 		bool HaveIApet = нет;
 		double MyShoeSize = 40.0;
 
-		Console.WriteLine(MyName);
-
 		Console.WriteLine("Меня зовут" + MyName);
 		Console.WriteLine("Мне {0} года", MyAge);
 		Console.WriteLine("У меня {0} домашнего питомца", HaveIApet);
